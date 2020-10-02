@@ -534,6 +534,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  height: 250px !important;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -548,7 +549,9 @@ section {
   z-index: 2;
   opacity: 0;
 }
-
+.portfolio .portfolio-wrap img {
+  height: 100%;
+}
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
@@ -568,6 +571,7 @@ section {
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
   width: 50%;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -589,6 +593,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
@@ -1055,6 +1060,9 @@ section {
   .portfolio-details .portfolio-info {
     position: static;
     margin-top: 30px;
+  }
+  #hero .hero-container {
+    margin-left: -100px;
   }
 }
 
